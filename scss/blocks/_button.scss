@@ -1,0 +1,21 @@
+.button {
+  background: $blue-color;
+  border: none;
+  color: $white-color;
+  border-radius: 8px;
+  padding: 13px 30px 16px 30px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: -0.5px;
+  cursor: pointer;
+  transition: background 0.3s;
+
+  &:hover {
+    background: darken($blue-color, 5%);
+  }
+
+  &:active, &:focus-visible {
+    background: darken($blue-color, 20%);
+  }
+}

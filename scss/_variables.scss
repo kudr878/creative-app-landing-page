@@ -1,0 +1,35 @@
+$black-color: #161c2d;
+$blue-color: #473bf0;
+$light-blue-color: #f4f7fa;
+$white-color: #ffffff;
+$red-color: #f64b4b;
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../assets/font/Gilroy-Regular.woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../assets/font/Gilroy-Bold.woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../assets/font/Gilroy-Medium.woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../assets/font/Gilroy-Light.woff');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../assets/font/Gilroy-Heavy.woff');
+  font-weight: 900;
+}

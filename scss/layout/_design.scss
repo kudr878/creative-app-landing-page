@@ -1,0 +1,65 @@
+.design {
+  background: $black-color;
+  padding: 150px 0;
+  position: relative;
+  overflow: hidden;
+  &__wrap {
+    max-width: 475px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    color: $white-color;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: -1.8px;
+    margin-bottom: 22px;
+  }
+
+  &__desc {
+    max-width: 400px;
+    margin: 0 auto;
+    color: $white-color;
+    font-size: 19px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    opacity: 0.65;
+    margin-bottom: 75px;
+  }
+
+  &__img {
+    position: absolute;
+    width: 100%;
+    top: 290px;
+    left: 0;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__imgs {
+    height: 425px;
+    max-width: 391px;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  &__img {
+    &--left {
+      position: absolute;
+    }
+
+    &--right {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}

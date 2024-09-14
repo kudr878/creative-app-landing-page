@@ -1,0 +1,28 @@
+.footer {
+  max-width: 1112px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 44px 0;
+
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__link {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    color: $black-color;
+    text-decoration: none;
+
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: underline;
+    }
+  }
+}

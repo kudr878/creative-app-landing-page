@@ -1,0 +1,69 @@
+.comfort {
+  background: $blue-color;
+  display: flex;
+  align-items: center;
+  height: 1000px;
+  
+  &__img {
+    width: 40%;
+    height: 100%;
+    background: url(../../assets/images/comfort.png) no-repeat center;
+    background-size: cover;
+  }
+
+  &__text {
+    margin: 0 auto;
+    padding-left: 100px;
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -1.8px;
+    color: $white-color;
+    margin-bottom: 15px;
+    max-width: 420px;
+  }
+
+  &__desc {
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: $white-color;
+    opacity: 0.65;
+    max-width: 390px;
+    margin-bottom: 90px;
+  }
+
+  &__testimonial {
+    display: flex;
+    gap: 22px;
+
+    &-img {
+      align-self: flex-start;
+      margin-top: 10px;
+    }
+  }
+
+  &__quote {
+    &-text {
+      font-size: 21px;
+      line-height: 32px;
+      letter-spacing: -0.116667px;
+      color: $white-color;
+      max-width: 345px;
+      margin-bottom: 23px;
+    }
+
+    &-author {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 26px;
+      letter-spacing: -0.1px;
+      color: $white-color;
+      opacity: 0.65;
+    }
+  }
+}
