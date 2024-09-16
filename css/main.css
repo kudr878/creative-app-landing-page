@@ -344,8 +344,11 @@ img {
 .features__img {
   width: 40%;
   height: 100%;
-  background: url(../../assets/images/bitmap.png) no-repeat center;
-  background-size: cover;
+}
+.features__img img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .features__title {
   font-weight: bold;
@@ -400,8 +403,11 @@ img {
 .comfort__img {
   width: 40%;
   height: 100%;
-  background: url(../../assets/images/comfort.png) no-repeat center;
-  background-size: cover;
+}
+.comfort__img img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .comfort__text {
   margin: 0 auto;
